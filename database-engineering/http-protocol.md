@@ -1,8 +1,8 @@
-# HTTP Protocol & Custom Protocols — Video Notes (0:00–14:30)
+# HTTP Protocol & Custom Protocols — Video Notes
 
 ---
 
-## What is a Protocol? (0:00 – 1:07)
+## What is a Protocol?
 
 - A protocol is a **common language** that two machines agree upon to communicate over a network.
 - Without a protocol, machines cannot understand what the other wants — similar to how humans need a shared language like English to converse.
@@ -11,7 +11,7 @@
 
 ---
 
-## The HTTP Protocol (1:07 – 3:08)
+## The HTTP Protocol
 
 HTTP is a protocol where the **client initiates a TCP connection**, sends a request, and the server responds.
 
@@ -39,7 +39,7 @@ Header-Key: Header-Value\r\n
 
 ---
 
-## Practical Demo: Raw TCP Connections (3:08 – 9:55)
+## Practical Demo: Raw TCP Connections
 
 Instead of using `curl`, the speaker interacts with a Go web server directly over raw TCP using **Netcat (`nc`)**.
 
@@ -76,7 +76,7 @@ user=arpit&password=pass
 
 ---
 
-## Creating Custom Protocols (9:55 – 14:30)
+## Creating Custom Protocols
 
 - You can define **your own protocol specification** as long as both the client and server understand it.
 - You must write:
